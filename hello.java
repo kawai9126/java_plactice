@@ -9,5 +9,24 @@ public class hello {
 
     System.out.format("The sum of %s and %s is %s.\n",
       args[0], args[1], Integer.toString(sum));
+      
+    System.out.println("こんにちは" + "世界");
+    
+    System.out.println("38" + "19");
+    
+    System.out.println(38 + 19);
+    
+    int number;
+    
+    number = 3;
+    
+    System.out.println(number);
+
+    String name;
+    
+    name = "kawai";
+    
+    System.out.println(name);
+    
   }
 }
