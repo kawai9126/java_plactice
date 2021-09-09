@@ -12,5 +12,20 @@ class main {
     boolean bool = 3 * 9 == 27;
     
     System.out.println(bool);
+    
+    System.out.println(8 < 5);
+    
+    System.out.println(3 >= 2);
+    
+    System.out.println(true || false);
+    
+    System.out.println(false && true);
+    
+    System.out.println(8 < 5 && 3 >= 2);
+    
+    System.out.println(8 < 5 || 3 >= 2);
+    
+    System.out.println(!(8 < 5));
+    
   }
 }
