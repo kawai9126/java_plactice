@@ -28,5 +28,19 @@ class Gate {
     } else {
       System.out.println("20以上");
     }
+    
+    int number1 = 12;
+    
+    switch (number1 % 3) {
+      case 0:
+        System.out.println("3で割り切れます");
+        break;
+      case 1:
+        System.out.println("3で割ると1余ります");
+        break;
+      case 2:
+        System.out.println("3で割ると2余ります");
+        break;
+    }
   }
 }
