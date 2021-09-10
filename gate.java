@@ -60,6 +60,13 @@ class Gate {
         System.out.println("吉です");
         break;
     }
+    
+    int number3 = 10;
+  
+    while (number3 > 0) {
+      System.out.println(number3);
+      number3--;
+    }
   }
 }
 
