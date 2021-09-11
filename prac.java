@@ -25,5 +25,10 @@ class Prac {
     }
     
     
+    String[] names = {"ぬこ", "ひつじ", "いんぬ"};
+    
+    System.out.println(names[0]);
+    
+    System.out.println(names[2]);
   }
 }
