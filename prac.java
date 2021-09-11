@@ -30,5 +30,13 @@ class Prac {
     System.out.println(names[0]);
     
     System.out.println(names[2]);
+    
+    String[] languages = {"Ruby", "PHP", "Python"};
+
+    System.out.println(languages[1]);
+    
+    languages[1] = "Java";
+    
+    System.out.println(languages[1]);
   }
 }
