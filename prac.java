@@ -38,5 +38,11 @@ class Prac {
     languages[1] = "Java";
     
     System.out.println(languages[1]);
+    
+    String[] names2 = {"いんぬ", "かめきち", "ぬこ"};
+    
+    for (int l = 0; l < names2.length; l++) {
+      System.out.println("私の名前は" + names2[l] + "です");
+    }
   }
 }
