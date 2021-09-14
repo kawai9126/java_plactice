@@ -1,9 +1,13 @@
-class Main {
+class Name {
   public static void main(String[] args) {
-    printData();
-  }
+    printData("kawai");
   
-  public static void printData() {
-    System.out.println("私の名前はkawai atsutoです");
+    printData("atsuto");
+    
+  }
+
+  public static void printData(String name) {
+    System.out.println("私の名前は" + name + "です");
+    
   }
 }
