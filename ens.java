@@ -2,7 +2,7 @@ public class Ens {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String input = br.readLine();
-        String[] param = input.split(" ");//入力値を空白で分解する
+        String[] param = input.split(" ");
         int num1 = Integer.parseInt(param[0]);
         String type = param[1] ;
         int num2 = Integer.parseInt(param[2]);
